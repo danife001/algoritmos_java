@@ -1,0 +1,47 @@
+body{
+   margin: 0%;
+   background: url(../img/images.jpg);
+   background: cover;
+   width: 100%;
+   height: 200vh;
+   text-align: center;
+   padding-top: 10%;
+}
+
+#contenedor h1{
+    color: aliceblue;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#contenedor p{
+    color: aqua;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+#contenedor {
+    width: 80%;
+    padding: 100px 120px;
+    background: rgba(9, 9, 9, 0.427);
+    margin: 0 auto;
+}
+/* estilo del boton en inactivo  */
+#contenedor button{
+    padding: 8px 20px;
+    background: rgba(0, 0, 255, 0.346);
+    border: 2px solid rgb(65, 78, 172);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .5s;
+    margin: 10px 5px;
+
+}
+
+/* estado al pasar cursor por encima  */
+#contenedor button:hover{
+    background: rgba(255, 0, 0, 0.315);
+    padding: 10px 22px;
+}
